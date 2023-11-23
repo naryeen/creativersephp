@@ -34,13 +34,13 @@
                         <div class="col-lg-4 widget-area sidebar-left">
                             <aside class="widget widget-nav-menu">
                                 <ul>
-                                    <li><a href="it-services.html">IT Services</a></li>
-                                    <li class="active"><a href="content-writing.html">Creative Content Writing</a></li>
-                                    <li><a href="video-production.html">Video Production</a></li>
-                                    <li><a href="animation-production.html">Animation Production</a></li>
-                                    <li><a href="graphic-design-branding.html">Graphic Design and Branding</a></li>
-                                    <li><a href="video-editing.html">Video Editing</a></li>
-                                    <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                                    <li ><a href="{{route ('itservices')}}">IT Services</a></li>
+                                    <li class="active"><a href="{{route ('creativecontentwriting')}}">Creative Content Writing</a></li>
+                                    <li><a href="{{route ('videoproduction')}}">Video Production</a></li>
+                                    <li><a href="{{route ('animationproduction')}}">Animation Production</a></li>
+                                    <li><a href="{{route ('graphicdesignandbranding')}}">Graphic Design and Branding</a></li>
+                                    <li><a href="{{route ('videoediting')}}">Video Editing</a></li>
+                                    <li><a href="{{route ('digitalmarketing')}}">Digital Marketing</a></li>
                                 </ul>
                             </aside>
                             <aside class="widget widget-banner">
@@ -58,7 +58,7 @@
                                             <h3>Office Opening Hours</h3>
                                             <p class="mb-0">Monday - Saturday</p>
                                             <p>09:00 Am - 05:30 PM</p>
-                                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor  margin_top10" href="contact-us.html">Book Appointment</a>
+                                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor  margin_top10" href="{{route ('contactus')}}">Book Appointment</a>
                                         </div>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@
                                 <ul>
                                     <li>
                                         <a class="ttm_prettyphoto " title="general-builder" data-rel="prettyPhoto" rel="prettyPhoto[coregallery]" href="{{asset('assets/images/portfolio/post01.jpg')}}">
-                                            <img class="img-fluid" src="images/portfolio/portfolio-01-150x150.jpg" alt=""></a>
+                                            <img class="img-fluid" src="{{asset('assets/images/portfolio/portfolio-01-150x150.jpg')}}" alt=""></a>
                                     </li>
                                     <li>
                                         <a class="ttm_prettyphoto " title="general-builder" data-rel="prettyPhoto" rel="prettyPhoto[coregallery]" href="{{asset('assets/images/portfolio/post02.jpg')}}">
@@ -167,5 +167,5 @@
         <!--back-to-top start-->
         <!--back-to-top end-->
     </div><!-- page end -->
-<!-- <h6>Home : {{ Auth::user()->name }}</h6> -->
+{{-- <!-- <h6>Home : {{ Auth::user()->name }}</h6> --> --}}
 @endsection

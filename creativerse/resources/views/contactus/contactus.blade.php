@@ -19,14 +19,6 @@
                         <div class="page-title-heading">
                             <h2 class="title">Contact Us</h2>
                         </div>
-                        <!-- <div class="breadcrumb-wrapper">
-                                <span>
-                                    <a title="Homepage" href="index.html">
-                                        <i class="themifyicon ti-home"></i> &nbsp;
-                                        Home</a>
-                                </span>
-                                <span>Contact Us</span>
-                            </div> -->
                     </div>
                 </div>
             </div>
@@ -160,5 +152,5 @@
     
     <!--back-to-top end-->
 </div><!-- page end -->
-<!-- <h6>Home : {{ Auth::user()->name }}</h6> -->
+{{-- <!-- <h6>Home : {{ Auth::user()->name }}</h6> --> --}}
 @endsection

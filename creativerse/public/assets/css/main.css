@@ -5839,7 +5839,7 @@ nav.main-menu ul {
 /* changes here  */
 .widget ul#menu-footer-quick-links li {
   flex: 1;
-  padding: 50 25px; /* Adjust spacing between items */
+  padding: 30 15px; /* Adjust spacing between items */
   text-align: center; /* Center-align each item */
   box-sizing: border-box;
   align-items: center;

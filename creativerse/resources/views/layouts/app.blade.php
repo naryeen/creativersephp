@@ -20,35 +20,35 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <title>Creativerse - HOME</title>
-    <link rel="shortcut icon" href="{{assets('assets/images/favicon.png') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('revolution/css/rs6.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/shortcodes.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/megamenu.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }} ">
+    <link rel="shortcut icon" href="{{asset('assets/images/favicon.png') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/revolution/css/rs6.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/shortcodes.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/main.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/megamenu.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/app.css') }} ">
 </head>
 <body>
     @include('layouts.navigation')
     @yield('content')
     <!-- Ensure jQuery is included before this script -->
     <!-- Javascript -->
-    <script src="{{ asset('js/jquery-3.6.0.min.js') }} "></script>
-    <script src="{{ asset('js/jquery-migrate-3.3.2.min.js') }} "></script>
-    <script src="{{ asset('js/bootstrap.bundle.min.js') }} "></script>
-    <script src="{{ asset('js/jquery.easing.js') }} "></script>
-    <script src="{{ asset('js/jquery-waypoints.js') }} "></script>
-    <script src="{{ asset('js/jquery-validate.js') }} "></script>
-    <script src="{{ asset('js/jquery.prettyPhoto.js') }} "></script>
-    <script src="{{ asset('js/slick.min.js') }} "></script>
-    <script src="{{ asset('js/numinate.min.js') }} "></script>
-    <script src="{{ asset('js/imagesloaded.min.js') }} "></script>
-    <script src="{{ asset('js/jquery-isotope.js') }} "></script>
-    <script src="{{ asset('revolution/js/rbtools.min.js') }} "></script>
-    <script src="{{ asset('revolution/js/rs6.min.js') }} "></script>
-    <script src="{{ asset('revolution/js/slider.js') }} "></script>
-    <script src="{{ asset('js/main.js"></script>
+    <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }} "></script>
+    <script src="{{ asset('assets/js/jquery-migrate-3.3.2.min.js') }} "></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }} "></script>
+    <script src="{{ asset('assets/js/jquery.easing.js') }} "></script>
+    <script src="{{ asset('assets/js/jquery-waypoints.js') }} "></script>
+    <script src="{{ asset('assets/js/jquery-validate.js') }} "></script>
+    <script src="{{ asset('assets/js/jquery.prettyPhoto.js') }} "></script>
+    <script src="{{ asset('assets/js/slick.min.js') }} "></script>
+    <script src="{{ asset('assets/js/numinate.min.js') }} "></script>
+    <script src="{{ asset('assets/js/imagesloaded.min.js') }} "></script>
+    <script src="{{ asset('assets/js/jquery-isotope.js') }} "></script>
+    <script src="{{ asset('assets/revolution/js/rbtools.min.js') }} "></script>
+    <script src="{{ asset('assets/revolution/js/rs6.min.js') }} "></script>
+    <script src="{{ asset('assets/revolution/js/slider.js') }} "></script>
+    <script src="{{ asset('assets/js/main.js"></script>
     <!-- Javascript end-->
 </body>
 </html>

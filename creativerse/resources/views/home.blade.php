@@ -52,8 +52,8 @@
                         data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;"
                         data-frame_999="o:0;st:w;sR:8490;" style="z-index:12;background-color:#ffb200;">
                     </rs-layer>
-                    <a id="slider-1-slide-1-layer-5" class="rs-layer ttm-btn " href="{{route ('itservices')}}" target="_self"
-                        rel="nofollow" data-type="text" data-rsp_ch="on"
+                    <a id="slider-1-slide-1-layer-5" class="rs-layer ttm-btn " href="{{route ('itservices')}}"
+                        target="_self" rel="nofollow" data-type="text" data-rsp_ch="on"
                         data-xy="x:l,l,c,c;xo:86px,86px,0,0;y:m;yo:129px,129px,93px,71px;"
                         data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;"
                         data-padding="t:13,13,12,12;r:30,30,30,25;b:13,13,12,12;l:30,30,30,25;"
@@ -346,7 +346,8 @@
                                         </div>
 
                                         <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor"
-                                            href="{{ route('itservices') }}">Learn More<i class="fa fa-long-arrow-right"></i></a>
+                                            href="{{ route('itservices') }}">Learn More<i
+                                                class="fa fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -664,11 +665,41 @@
     <!--footer start-->
     @include('components.footer')
     <!--footer end-->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
     <!--back-to-top start-->
     <!-- <a id="totop" href="#top">
         <i class="fa fa-angle-up"></i>
     </a> -->
     <!--back-to-top end-->
 </div><!-- page end -->
-<!-- <h6>Home : {{ Auth::user()->name }}</h6> -->
+{{--
+<!-- <h6>Home : {{ Auth::user()->name }}</h6> --> --}}
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108895728166845");
+      chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v18.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+</script>
+
 @endsection

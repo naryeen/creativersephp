@@ -12,6 +12,7 @@ use App\Http\Controllers\services\videoediting\VideoEditingController;
 use App\Http\Controllers\services\digitalmarketing\digitalMarketingController;
 use App\Http\Controllers\contactus\AboutUsController;
 use App\Http\Controllers\ourteam\OurTeamController;
+use App\Http\Controllers\chatbot\ChatBotController;
 
 
 /*  
@@ -56,3 +57,4 @@ Route::get('/services/videoediting', [VideoEditingController::class, 'index'])->
 Route::get('/services/digitalmarketing', [digitalMarketingController::class, 'index'])->name('digitalmarketing');
 Route::get('/services/contactus', [AboutUsController::class, 'index'])->name('contactus');
 Route::get('/services/ourteam', [OurTeamController::class, 'index'])->name('ourteam');
+Route::get('/chatbot/index', [ChatBotController::class, 'index'])->name('index');

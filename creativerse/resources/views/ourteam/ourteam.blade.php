@@ -89,13 +89,13 @@
                     <div class="testimonials ttm-testimonial-box-view-style2">
                         <div class="testimonial-avatar">
                             <div class="testimonial-img">
-                                <img class="img-center" src="{{asset('assets/images/testimonial/testimonial01.jpg')}}" alt="testimonial-img">
+                                <img class="img-center" src="{{asset('assets/images/naryeen.jpg')}}" alt="testimonial-img">
                             </div>
                         </div>
                         <div class="testimonial-content">
                             <blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</blockquote>
                             <div class="testimonial-caption">
-                                <h5>Dechen Dechen</h5>
+                                <h5>Nar Bdr Kharka</h5>
                                 <label>Guest</label>
                             </div>
                         </div>

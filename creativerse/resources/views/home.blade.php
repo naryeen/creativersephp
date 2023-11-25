@@ -52,15 +52,15 @@
                         data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;"
                         data-frame_999="o:0;st:w;sR:8490;" style="z-index:12;background-color:#ffb200;">
                     </rs-layer>
-                    <a id="slider-1-slide-1-layer-5" class="rs-layer ttm-btn " href="{{route ('itservices')}}"
-                        target="_self" rel="nofollow" data-type="text" data-rsp_ch="on"
+                    <a id="slider-1-slide-1-layer-5" class="rs-layer ttm-btn " href="{{route ('about')}}" target="_self"
+                        rel="nofollow" data-type="text" data-rsp_ch="on"
                         data-xy="x:l,l,c,c;xo:86px,86px,0,0;y:m;yo:129px,129px,93px,71px;"
                         data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;"
                         data-padding="t:13,13,12,12;r:30,30,30,25;b:13,13,12,12;l:30,30,30,25;"
                         data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;" data-frame_0="y:100%;"
                         data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;"
                         data-frame_hover="c:#0c2d62;bgc:#ffa800;boc:#ffa800;bos:solid;bow:2px,2px,2px,2px;"
-                        style="z-index:11;font-family:'inter';">Our Services
+                        style="z-index:11;font-family:'inter';">More About Us
                         <i class="fa fa-long-arrow-right"></i>
                     </a>
 
@@ -122,6 +122,7 @@
                     <!--
 -->
                 </rs-slide>
+                {{-- Second Slides --}}
                 <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide"
                     data-thumb="{{asset('assets/assets/mainslider-bg2-50x100.jpg')}}" data-filter="e:late;b:6;"
                     data-in="o:0;sx:1.05;sy:1.05;e:power1.in;">
@@ -169,7 +170,172 @@
 
                         
 
-                            --><a id="slider-1-slide-2-layer-6" class="rs-layer ttm-btn" href="{{route ('contactus')}}"
+                            -->
+                    {{-- <a id="slider-1-slide-2-layer-6" class="rs-layer ttm-btn" href="{{route ('contactus')}}"
+                        target="_self" rel="nofollow" data-type="text" data-color="#0c2d62" data-rsp_ch="on"
+                        data-xy="x:r,r,c,c;xo:75px,75px,0,0;y:m;yo:131px,131px,122px,80px;"
+                        data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;"
+                        data-padding="t:13,13,12,12;r:25,25,30,25;b:13,13,12,12;l:30,30,30,25;"
+                        data-border="bos:solid;boc:#ffa800;bow:2px,2px,2px,2px;" data-frame_0="y:100%;"
+                        data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;"
+                        data-frame_hover="c:#fff;bgc:#0c2d62;boc:#0c2d62;bos:solid;bow:2px,2px,2px,2px;"
+                        style="z-index:11;background-color:#ffa800;font-family:'inter';">Our Services <i
+                            class="fa fa-long-arrow-down"></i>
+                    </a> --}}
+                    <!-- Update the link in your slider to include the id -->
+                    <a id="slider-1-slide-2-layer-6" class="rs-layer ttm-btn" href="javascript:void(0);"
+                        data-target="#our-services" data-type="text" data-color="#0c2d62" data-rsp_ch="on"
+                        data-xy="x:r,r,c,c;xo:75px,75px,0,0;y:m;yo:131px,131px,122px,80px;"
+                        data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;"
+                        data-padding="t:13,13,12,12;r:25,25,30,25;b:13,13,12,12;l:30,30,30,25;"
+                        data-border="bos:solid;boc:#ffa800;bow:2px,2px,2px,2px;" data-frame_0="y:100%;"
+                        data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;"
+                        data-frame_hover="c:#fff;bgc:#0c2d62;boc:#0c2d62;bos:solid;bow:2px,2px,2px,2px;"
+                        style="z-index:11;background-color:#ffa800;font-family:'inter';">Our Services <i
+                            class="fa fa-long-arrow-down"></i>
+                    </a>
+                    <!--
+
+                            --><a id="slider-1-slide-2-layer-28" class="rs-layer ttm_prettyphoto"
+                        href="https://www.youtube.com/watch?v=DM5UgZRuCIw" target="_self" rel="nofollow"
+                        data-type="text" data-color="#0c2d62" data-rsp_ch="on"
+                        data-xy="x:c;xo:394px,394px,575px,354px;y:m;yo:-184px,-184px,-61px,-37px;"
+                        data-text="w:normal;s:25,25,15,9;l:55,55,34,20;a:center;"
+                        data-dim="w:55px,55px,34px,20px;h:55px,55px,34px,20px;" data-vbility="t,t,f,f"
+                        data-frame_0="rY:360deg;" data-frame_1="e:back.out;st:150;sp:500;sR:150;"
+                        data-frame_999="o:0;st:w;sR:8350;" data-frame_hover="c:#fff;bgc:#ffa800;"
+                        style="z-index:20;background-color:#ffa800;font-family:'Roboto';"><i class="fa fa-play"></i>
+                    </a>
+                    <!--
+-->
+                </rs-slide>
+                {{-- new Third Slide for Bhutanese Experties and Global... --}}
+
+                <rs-slide style="position: absolute;" data-key="rs-3" data-title="Slide"
+                    data-thumb="{{asset('assets/assets/mainslider-bg2-50x100.jpg')}}" data-filter="e:late;b:6;"
+                    data-in="o:0;sx:1.05;sy:1.05;e:power1.in;">
+                    <img src="{{asset('assets/revolution/assets/dummy.png')}}" title="mainslider-bg2" width="1920"
+                        height="810" class="rev-slidebg tp-rs-img rs-lazyload"
+                        data-lazyload="{{asset('assets/revolution/assets/mainslider-bg2.jpg')}}" data-no-retina>
+
+                    <rs-layer id="slider-1-slide-2-layer-1" data-type="text" data-rsp_ch="on"
+                        data-xy="x:r,r,c,c;xo:75px,75px,0,0;y:m;yo:-55px,-55px,-80px,-90px;"
+                        data-text="w:normal;s:70,70,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;"
+                        data-frame_1="st:180;sp:800;sR:180;" data-frame_999="o:0;st:w;sR:8020;"
+                        style="z-index:9;font-family:'inter';">Bhutanese Expertise
+                    </rs-layer>
+                    <!--
+
+                            -->
+                    <rs-layer id="slider-1-slide-2-layer-2" data-type="text" data-rsp_ch="on"
+                        data-xy="x:r,r,c,c;xo:75px,75px,0,0;y:m;yo:28px,28px,-14px,-41px;"
+                        data-text="w:normal;s:70,70,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;"
+                        data-frame_1="st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;"
+                        style="z-index:10;font-family:'inter';">Global <span class="ttm-textcolor-skincolor slide-text">
+                            PERSPECTIVE </span>
+                    </rs-layer>
+                    <!--
+
+                            -->
+                    <rs-layer id="slider-1-slide-2-layer-3" data-type="shape" data-rsp_ch="on"
+                        data-xy="x:r;xo:30px,30px,-238px,-146px;y:m;yo:-54px,-54px,33px,20px;"
+                        data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
+                        data-dim="w:7px,7px,3px,1px;h:260px,260px,162px,99px;" data-vbility="t,t,f,f"
+                        data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;"
+                        data-frame_999="o:0;st:w;sR:8490;" style="z-index:14;background-color:#ffb200;">
+                    </rs-layer>
+                    <!--
+
+                            -->
+                    <rs-layer id="slider-1-slide-2-layer-4" data-type="shape" data-rsp_ch="on"
+                        data-xy="x:r;xo:30px,30px,-281px,-173px;y:m;yo:-183px,-183px,-90px,-55px;"
+                        data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
+                        data-dim="w:150px,150px,93px,57px;h:7px,7px,3px,1px;" data-vbility="t,t,f,f"
+                        data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;"
+                        data-frame_999="o:0;st:w;sR:8490;" style="z-index:13;background-color:#ffb200;">
+                    </rs-layer>
+                    <!--
+
+                        
+
+                            --><a id="slider-1-slide-2-layer-6" class="rs-layer ttm-btn" href="{{route ('ourteam')}}"
+                        target="_self" rel="nofollow" data-type="text" data-color="#0c2d62" data-rsp_ch="on"
+                        data-xy="x:r,r,c,c;xo:75px,75px,0,0;y:m;yo:131px,131px,122px,80px;"
+                        data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;"
+                        data-padding="t:13,13,12,12;r:25,25,30,25;b:13,13,12,12;l:30,30,30,25;"
+                        data-border="bos:solid;boc:#ffa800;bow:2px,2px,2px,2px;" data-frame_0="y:100%;"
+                        data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;"
+                        data-frame_hover="c:#fff;bgc:#0c2d62;boc:#0c2d62;bos:solid;bow:2px,2px,2px,2px;"
+                        style="z-index:11;background-color:#ffa800;font-family:'inter';">Our Team <i
+                            class="fa fa-long-arrow-right"></i>
+                    </a>
+                    <!--
+
+                            --><a id="slider-1-slide-2-layer-28" class="rs-layer ttm_prettyphoto"
+                        href="https://www.youtube.com/watch?v=DM5UgZRuCIw" target="_self" rel="nofollow"
+                        data-type="text" data-color="#0c2d62" data-rsp_ch="on"
+                        data-xy="x:c;xo:394px,394px,575px,354px;y:m;yo:-184px,-184px,-61px,-37px;"
+                        data-text="w:normal;s:25,25,15,9;l:55,55,34,20;a:center;"
+                        data-dim="w:55px,55px,34px,20px;h:55px,55px,34px,20px;" data-vbility="t,t,f,f"
+                        data-frame_0="rY:360deg;" data-frame_1="e:back.out;st:150;sp:500;sR:150;"
+                        data-frame_999="o:0;st:w;sR:8350;" data-frame_hover="c:#fff;bgc:#ffa800;"
+                        style="z-index:20;background-color:#ffa800;font-family:'Roboto';"><i class="fa fa-play"></i>
+                    </a>
+                    <!--
+-->
+                </rs-slide>
+
+
+                {{-- new forth Slide for Tailored to Your Vision... --}}
+
+                <rs-slide style="position: absolute;" data-key="rs-4" data-title="Slide"
+                    data-thumb="{{asset('assets/assets/mainslider-bg2-50x100.jpg')}}" data-filter="e:late;b:6;"
+                    data-in="o:0;sx:1.05;sy:1.05;e:power1.in;">
+                    <img src="{{asset('assets/revolution/assets/dummy.png')}}" title="mainslider-bg2" width="1920"
+                        height="810" class="rev-slidebg tp-rs-img rs-lazyload"
+                        data-lazyload="{{asset('assets/revolution/assets/mainslider-bg2.jpg')}}" data-no-retina>
+
+                    <rs-layer id="slider-1-slide-2-layer-1" data-type="text" data-rsp_ch="on"
+                        data-xy="x:r,r,c,c;xo:75px,75px,0,0;y:m;yo:-55px,-55px,-80px,-90px;"
+                        data-text="w:normal;s:70,70,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;"
+                        data-frame_1="st:180;sp:800;sR:180;" data-frame_999="o:0;st:w;sR:8020;"
+                        style="z-index:9;font-family:'inter';">Tailored To
+                    </rs-layer>
+                    <!--
+
+                         -->
+                    <rs-layer id="slider-1-slide-2-layer-2" data-type="text" data-rsp_ch="on"
+                        data-xy="x:r,r,c,c;xo:75px,75px,0,0;y:m;yo:28px,28px,-14px,-41px;"
+                        data-text="w:normal;s:70,70,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;"
+                        data-frame_1="st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;"
+                        style="z-index:10;font-family:'inter';">Your <span class="ttm-textcolor-skincolor slide-text">
+                            VISION </span>
+                    </rs-layer>
+                    <!--
+
+                         -->
+                    <rs-layer id="slider-1-slide-2-layer-3" data-type="shape" data-rsp_ch="on"
+                        data-xy="x:r;xo:30px,30px,-238px,-146px;y:m;yo:-54px,-54px,33px,20px;"
+                        data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
+                        data-dim="w:7px,7px,3px,1px;h:260px,260px,162px,99px;" data-vbility="t,t,f,f"
+                        data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;"
+                        data-frame_999="o:0;st:w;sR:8490;" style="z-index:14;background-color:#ffb200;">
+                    </rs-layer>
+                    <!--
+
+                         -->
+                    <rs-layer id="slider-1-slide-2-layer-4" data-type="shape" data-rsp_ch="on"
+                        data-xy="x:r;xo:30px,30px,-281px,-173px;y:m;yo:-183px,-183px,-90px,-55px;"
+                        data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
+                        data-dim="w:150px,150px,93px,57px;h:7px,7px,3px,1px;" data-vbility="t,t,f,f"
+                        data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;"
+                        data-frame_999="o:0;st:w;sR:8490;" style="z-index:13;background-color:#ffb200;">
+                    </rs-layer>
+                    <!--
+
+                     
+
+                         --><a id="slider-1-slide-2-layer-6" class="rs-layer ttm-btn" href="{{route ('contactus')}}"
                         target="_self" rel="nofollow" data-type="text" data-color="#0c2d62" data-rsp_ch="on"
                         data-xy="x:r,r,c,c;xo:75px,75px,0,0;y:m;yo:131px,131px,122px,80px;"
                         data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;"
@@ -182,7 +348,7 @@
                     </a>
                     <!--
 
-                            --><a id="slider-1-slide-2-layer-28" class="rs-layer ttm_prettyphoto"
+                         --><a id="slider-1-slide-2-layer-28" class="rs-layer ttm_prettyphoto"
                         href="https://www.youtube.com/watch?v=DM5UgZRuCIw" target="_self" rel="nofollow"
                         data-type="text" data-color="#0c2d62" data-rsp_ch="on"
                         data-xy="x:c;xo:394px,394px,575px,354px;y:m;yo:-184px,-184px,-61px,-37px;"
@@ -202,78 +368,28 @@
     <!--site-main start-->
     <div class="site-main">
         <!--top-section-->
-        <section class="ttm-row top-section clearfix">
+
+
+        <section class="ttm-row service-one-section ttm-bgimage-yes bg-img1 ttm-bg ttm-bgcolor-darkgrey clearfix">
+            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
             <div class="container">
-                <div class="row ">
+                <div class="row">
                     <div class="col-lg-12">
-                        <div class="row mt_160 res-991-margin_top_0 g-0">
-                            <div class="col-lg-6">
-                                <div
-                                    class="ttm-bgcolor-darkgrey padding_top40 padding_left50 padding_right50 padding_bottom60 res-320-padding_top30 res-320-padding_bottom30 res-320-padding_lr15 margin_left30 margin_right30 position-relative column-title">
-                                    <!--col-title -->
-                                    <div class="col-title section-title">
-                                        <h2 class="ttm-textcolor-whitecolor">"Empowering Innovation, Embracing
-                                            Excellence: <span> Your Gateway to Outsourcing Success from
-                                                Bhutan"</span></h2>
-                                    </div>
-                                    <!--col-title-end -->
-                                    <div class=" padding_top30 mb_120 res-575-margin_bottom0 ">
-                                        <img class="img-fluid" src="{{asset('assets/images/single-img1.jpg')}}"
-                                            alt="single-img1">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="row">
-                                    <div class="col-sm-6 col-12">
-                                        <div class="featured-icon-box icon-align-top-content style1">
-                                            <div class="featured-icon">
-                                                <div
-                                                    class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
-                                                    <i class="fa fa-lightbulb-o"></i>
-                                                </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <div class="featured-title">
-                                                    <h3>Bhutanese Expertise, Global Perspective</h3>
-                                                </div>
-                                                <div class="featured-desc">
-                                                    <p>Hailing from the enchanting landscapes of Bhutan, we bring a
-                                                        unique perspective to every project.</p>
-                                                </div>
-                                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor"
-                                                    href="general-builder.html">Read More<i
-                                                        class="fa fa-long-arrow-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-12">
-                                        <div class="featured-icon-box icon-align-top-content style1">
-                                            <div class="featured-icon">
-                                                <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-size-md">
-                                                    <i class="fa fa-bullseye"></i>
-                                                </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <div class="featured-title">
-                                                    <h3>Tailored to Your Vision</h3>
-                                                </div>
-                                                <div class="featured-desc">
-                                                    <p>We don't believe in one-size-fits-all solutions. Creativerse
-                                                        works closely with you to understand your business
-                                                        objectives,</p>
-                                                </div>
-                                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor"
-                                                    href="house-extensions.html">Read More<i
-                                                        class="fa fa-long-arrow-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        <!--section-title -->
+                        <div class="section-title title-style-center_text">
+                            <div class="title-header">
+                                <h2 class="title">"Empowering Innovation, Embracing Excellence: <span>Your Gateway To
+                                        Outsourcing Success From Bhutan "</span></h2>
                             </div>
                         </div>
+                        <div class=" padding_top30 mb_120 res-575-margin_bottom0 ">
+                            <img class="img-fluid" src="{{asset('assets/images/single-img1.jpg')}}" alt="single-img1">
+                        </div>
+                        <!--section-title-end -->
                     </div>
                 </div>
+
+
             </div>
         </section>
         <!--top-section-end-->
@@ -315,7 +431,8 @@
         </section>
         <!--about-section-end-->
         <!--service-section-->
-        <section class="ttm-row service-one-section ttm-bgimage-yes bg-img1 ttm-bg ttm-bgcolor-darkgrey clearfix">
+        <section id="our-services"
+            class="ttm-row service-one-section ttm-bgimage-yes bg-img1 ttm-bg ttm-bgcolor-darkgrey clearfix">
             <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
             <div class="container">
                 <div class="row">
@@ -371,7 +488,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-12">
-                                <div class="featured-icon-box icon-align-top-content style2 active">
+                                <div class="featured-icon-box icon-align-top-content style2 ">
                                     <div class="featured-icon">
                                         <div
                                             class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-size-md ttm-icon_element-color-skincolor">
@@ -499,8 +616,8 @@
                         <!-- section title -->
                         <div class="section-title title-style-center_text">
                             <div class="title-header">
-                                <h3>OUR BLOG</h3>
-                                <h2 class="title"> Our Recent News & <span>Blog</span></h2>
+                                {{-- <h3>OUR BLOG</h3> --}}
+                                <h2 class="title"> Our <span>Blog</span></h2>
                             </div>
                         </div><!-- section title end -->
                     </div>
@@ -515,22 +632,23 @@
                             </div>
                             <div class="featured-content">
                                 <!-- ttm-box-post-date -->
-                                <div class="ttm-box-post-date">
+                                {{-- <div class="ttm-box-post-date">
                                     <span class="ttm-entry-date">
                                         <time class="entry-date" datetime="2021-05-18T04:16:25+00:00">21<span
                                                 class="entry-month entry-year">May</span></time>
                                     </span>
-                                </div><!-- ttm-box-post-date end -->
+                                </div><!-- ttm-box-post-date end --> --}}
                                 <div class="featured-title">
-                                    <h3><a href="blog-right-sidebar.html">Lipsum generator: Lorem Ipsum - All the
-                                            facts</a></h3>
+                                    <h3><a href="blog-right-sidebar.html">The Evolution Of The Digital Economy & It's
+                                            Effects
+                                        </a></h3>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incidid...</p>
+                                    <p>The term "Digital Economy" is, in fact, a conjoined, blended syllable of
+                                        limitless possibilities and the application of our world in this time.....</p>
                                 </div>
                                 <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor"
-                                    href="blog-right-sidebar.html">Learn More<i class="fa fa-long-arrow-right"></i></a>
+                                    href="blog-right-sidebar.html">Read More<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div><!-- featured-imagebox-post end -->
                     </div>
@@ -542,22 +660,21 @@
                             </div>
                             <div class="featured-content">
                                 <!-- ttm-box-post-date -->
-                                <div class="ttm-box-post-date">
+                                {{-- <div class="ttm-box-post-date">
                                     <span class="ttm-entry-date">
                                         <time class="entry-date" datetime="2021-04-28T04:15:42+00:00">28<span
                                                 class="entry-month entry-year">Apr</span></time>
                                     </span>
-                                </div>
+                                </div> --}}
                                 <div class="featured-title">
-                                    <h3><a href="blog-right-sidebar.html">Lipsum generator: Lorem Ipsum - All the
-                                            facts</a></h3>
+                                    <h3><a href="blog-right-sidebar.html">A Nation in Transition</a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                         tempor incidid...</p>
                                 </div>
                                 <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor"
-                                    href="blog-right-sidebar.html">Learn More<i class="fa fa-long-arrow-right"></i></a>
+                                    href="blog-right-sidebar.html">Read More<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div><!-- featured-imagebox-post end -->
                     </div>
@@ -569,22 +686,22 @@
                             </div>
                             <div class="featured-content">
                                 <!-- ttm-box-post-date -->
-                                <div class="ttm-box-post-date">
+                                {{-- <div class="ttm-box-post-date">
                                     <span class="ttm-entry-date">
                                         <time class="entry-date" datetime="2021-04-15T04:15:25+00:00">28<span
                                                 class="entry-month entry-year">Apr</span></time>
                                     </span>
-                                </div><!-- ttm-box-post-date end -->
+                                </div><!-- ttm-box-post-date end --> --}}
                                 <div class="featured-title">
-                                    <h3><a href="blog-right-sidebar.html">Lipsum generator: Lorem Ipsum - All the
-                                            facts</a></h3>
+                                    <h3><a href="blog-right-sidebar.html">Digitalisation and its far-reaching
+                                            impacts</a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                         tempor incidid...</p>
                                 </div>
                                 <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor"
-                                    href="blog-right-sidebar.html">Learn More<i class="fa fa-long-arrow-right"></i></a>
+                                    href="blog-right-sidebar.html">Read More<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div><!-- featured-imagebox-post end -->
                     </div>
@@ -665,11 +782,7 @@
     <!--footer start-->
     @include('components.footer')
     <!--footer end-->
-    <div id="fb-root"></div>
 
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
     <!--back-to-top start-->
     <!-- <a id="totop" href="#top">
         <i class="fa fa-angle-up"></i>
@@ -678,28 +791,23 @@
 </div><!-- page end -->
 {{--
 <!-- <h6>Home : {{ Auth::user()->name }}</h6> --> --}}
-<script>
-    var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "108895728166845");
-      chatbox.setAttribute("attribution", "biz_inbox");
-</script>
 
-<!-- Your SDK code -->
+
+
+<!-- JavaScript to handle smooth scrolling -->
 <script>
-    window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v18.0'
+    document.addEventListener('DOMContentLoaded', function() {
+        // Add click event listener to the link
+        document.getElementById('slider-1-slide-2-layer-6').addEventListener('click', function() {
+            // Get the target section
+            var targetSection = document.getElementById('our-services');
+            
+            // Scroll to the target section smoothly
+            if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            }
         });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+    });
 </script>
 
 @endsection
